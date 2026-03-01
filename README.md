@@ -1,4 +1,4 @@
-# Hackathon Judge's Guide
+# Hackathon Judging Guide
 
 ## Welcome, and Thank You!
 
