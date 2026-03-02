@@ -7,6 +7,7 @@
 }
 #set page(margin: (top: 1.5em, bottom: 1.5em))
 #set quote(block: true)
+#show link: underline
 
 #heading2("Hackathon Judging Guide", level: 1)
 
@@ -55,9 +56,9 @@ something you genuinely hadn't thought of before.
 A 5 here means you walked away thinking *"I never would have thought of that."*
 A 1 means the project felt generic or derivative, something you've seen many times before with no meaningful twist.
 
-#quote(strong("Example [5]: ") + "Spiral transforms C and Python source code into an explorable 3D city rendered in your browser. Every function call, loop, branch, and variable assignment becomes a building you can fly through and click on. Turning a debugger into an art piece is exactly the kind of idea that makes you say *\"I never would have thought of that.\"*")
+#quote(strong("Example [5]: ") + link("https://github.com/happyCoderHackathons/spiral")[Spiral] + " transforms C and Python source code into an explorable 3D city rendered in your browser. Every function call, loop, branch, and variable assignment becomes a building you can fly through and click on. Turning a debugger into an art piece is exactly the kind of idea that makes you say *\"I never would have thought of that.\"*")
 
-#quote(strong("Example [1-2]: ") + "Goosepedia is a clean, well-structured website covering goose anatomy, diet, and behavior. The execution is solid, but the concept is a simple informational site with no unexpected angle or twist.")
+#quote(strong("Example [1-2]: ") + link("https://github.com/HappyCoderHackathons/Goosepedia")[Goosepedia]+ " is a clean, well-structured website covering goose anatomy, diet, and behavior. The execution is solid, but the concept is a simple informational site with no unexpected angle or twist.")
 
 #heading2("Most Learned "+  emph("Up to 5 points"), level: 3, aln: left)
 
@@ -72,9 +73,9 @@ A 5 here means the team clearly stretched themselves and can speak meaningfully 
 A 1 means there's little evidence of growth or challenge taken on.
 
 
-#quote(strong("Example [5]: ")+" EduSynapse implemented a custom AI model training approach straight from a recent academic paper, wrote their own spaced repetition algorithm from scratch, and integrated a locally hosted AI they had no prior experience with.")
+#quote(strong("Example [5]: ")+ link("https://github.com/happycoderhackathons/edusynapse")[EduSynapse] + " implemented a custom AI model training approach straight from a recent academic paper, wrote their own spaced repetition algorithm from scratch, and integrated a locally hosted AI they had no prior experience with.")
 
-#quote(strong("Example [2-4]: ") +"Snap&Serve had to abandon React Native mid-hackathon and rebuild in React after discovering camera support limitations they hadn't anticipated. Pivoting under pressure and shipping anyway is a real lesson, though it was a gap in upfront research rather than a deliberate stretch.")
+#quote(strong("Example [2-4]: ") +link("https://github.com/happycoderhackathons/snap-and-serve")[Snap&Serve] + " had to abandon React Native mid-hackathon and rebuild in React after discovering camera support limitations they hadn't anticipated. Pivoting under pressure and shipping anyway is a real lesson, though it was a gap in upfront research rather than a deliberate stretch.")
 
 #heading2("Technicality "+  emph("Up to 5 points"), level: 3, aln: left)
 
@@ -92,9 +93,9 @@ If they can communicate it in a way that YOU understand, regardless of technical
 A 5 means the technical execution was impressive and clearly required significant skill or effort.
 A 1 means the project was barely functional or technically very thin.
 
-#quote(strong("Example [5]: ") + "narr0w is a full AI-powered ticket triage pipeline. It evaluates incoming tickets against each team member's skills and workload, assigns them with a confidence score, and includes a \"Code-Mode\" agent that autonomously analyzes a repository, breaks the task into steps, creates GitHub branches, and submits pull requests. Every layer is purposeful and clearly understood by the team.")
+#quote(strong("Example [5]: ") + link("https://github.com/happycoderhackathons/narr0w")[narr0w] +" is a full AI-powered ticket triage pipeline. It evaluates incoming tickets against each team member's skills and workload, assigns them with a confidence score, and includes a \"Code-Mode\" agent that autonomously analyzes a repository, breaks the task into steps, creates GitHub branches, and submits pull requests. Every layer is purposeful and clearly understood by the team.")
 
-#quote(strong("Example [1-2]: ") + "Goosepedia is built with static HTML and CSS, no backend, no interactivity, no meaningful technical challenge. That's completely fine for what it set out to be, but it doesn't demonstrate much technical execution.")
+#quote(strong("Example [1-2]: ") + link("https://github.com/happycoderhackathons/goosepedia")[Goosepedia]+" is built with static HTML and CSS, no backend, no interactivity, no meaningful technical challenge. That's completely fine for what it set out to be, but it doesn't demonstrate much technical execution.")
 
 *Note: A technically simple project can still score well here if it's executed cleanly and intentionally. Complexity for its own sake isn't the goal,
 but rather understanding and proper application of that complexity.*
@@ -148,9 +149,9 @@ Step back and take the project in as a whole.
 Forget the individual categories for a moment, if you had to summarize your impression of this project in a single 
 score, what would it be? This is your vibe check, and it's allowed to reflect things that don't fit neatly into the other categories
 
-#quote(strong("Example [5] :") +"From the moment you see code transformed into a flyable 3D city, you know something special was built. The concept, execution, and polish all point to a team that cared deeply about what they were making.")
+#quote(strong("Example [5] :") +"With " + link("https://github.com/happycoderhackathons/spiral")[Spiral] + ", from the moment you see code transformed into a flyable 3D city, you know something special was built. The concept, execution, and polish all point to a team that cared deeply about what they were making.")
 
-#quote(strong("Example [2-3]: ") +"Project Green has an interesting concept (a recycling tracker with a smart trashcan lid using machine learning) and real ambition. Not everything came together in 24 hours, but the vision is clear and the effort shows.")
+#quote(strong("Example [2-3]: ") +link("https://github.com/happycoderhackathons/project-green")[Project Green]+" has an interesting concept (a recycling tracker with a smart trashcan lid using machine learning) and real ambition. Not everything came together in 24 hours, but the vision is clear and the effort shows.")
 
 
 #heading2("A Few Tips Before You Start")
